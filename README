@@ -1,0 +1,62 @@
+Módulo 07 Desafío Evaluado 01 - "Always Music"
+
+En este desafío validaremos nuestros conocimientos de Instalación y configuración de la librería pg, Propiedades del objeto result y la asincronía en una consulta, Ingresando y consultando datos, como también Actualizando y eliminando datos.
+
+Lee todo el documento antes de comenzar el desarrollo grupal, para asegurarte de tener el máximo de puntaje y enfocar bien los esfuerzos.
+
+DESCRIPCIÓN
+La escuela de música "Always Music" es reconocida en la ciudad por graduar a grandes músicos de reconocimiento mundial, sin embargo, a pesar de lo mucho que ha crecido con el tiempo, nunca dejaron de utilizar excel como base de datos y han decidido cambiar esto por un desarrollo personalizado.
+
+En este desafío deberás desarrollar una aplicación en Node que realice consultas a PostgreSQL con el paquete “pg”.
+
+CONSULTAS:
+
+    1) AGREGAR un nuevo estudiante. 
+    2) CONSULTAR los estudiantes registrados.
+    3) CONSULTAR estudiante por RUT.
+    4) ACTUALIZAR la información de un estudiante.
+    5) ELIMINAR el registro de un estudiante.
+
+
+Ya que el caso se trata de un proceso de desarrollo, la interacción la debes realizar con argumentos por la línea de comandos.
+Antes de iniciar este desafío deberás crear una base de datos y una tabla con las siguientes
+
+COLUMNAS:
+
+    ● Nombre
+    ● Rut
+    ● Curso
+    ● Nivel
+
+Usa las siguientes imágenes de la carpeta "img_readme" como referencia de lo que debes lograr en el desarrollo de este desafío.
+
+Consulta 1.2.3 imagen 1
+consulta 4 y 5 imagen 2
+
+REQUERIMIENTOS
+
+1. Crear una función asíncrona para REGISTRAR un nuevo estudiante en la base de datos. (2 puntos)
+2. Crear una función asíncrona para OBTENER por consola el registro de un estudiante por medio de su rut. (2 puntos)
+3. Crear una función asíncrona para OBTENER por consola todos los estudiantes registrados. (2 puntos)
+4. Crear una función asíncrona para ACTUALIZAR los datos de un estudiante en la base de datos. (2 puntos)
+5. Crear una función asíncrona para ELIMINAR el registro de un estudiante de la base de datos. (2 puntos)
+
+
+¡Mucho éxito!
+ 
+//INFORMACIÓN DE LA TABLA DE DATOS CREADA PARA RESOLVER EL EJERCICIO
+ #nombre base de datos
+ always_music
+
+ #nombre tabla
+ alumnos
+
+ #elementos iniciales de la base de datos 
+ 4 alumnos 
+
+ #columnas de la tabla 
+ *nombre (varchar 50)
+ *rut (varchar 13)
+ *curso (varchar 50)
+ *nivel (integer)
+

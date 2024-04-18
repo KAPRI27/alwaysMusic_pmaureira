@@ -1,0 +1,14 @@
+{
+  "name": "alwaysmusic_pmaureira",
+  "version": "1.0.0",
+  "description": "desafio evaluado mod 07 Instalación y configuración de pg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pmaureira",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.11.5"
+  }
+}
